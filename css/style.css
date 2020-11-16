@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar-nav{
+	float: right!important;
+}
+@media (max-width: 768px){
+.navbar-nav {
+	float: left!important;
+	}
+}
+nav .container-fluid{
+	background: #f8cf05;/*#005494*/
+	font-size: 20px;
+}
+.navbar-brand{
+	color: #fff!important;
+}
+nav .navbar-nav li a{
+	color: #fff!important;
+}
+nav .navbar-nav li:hover{
+	background: #fff;
+}
+nav .navbar-nav li a:hover{
+	color: #005494!important;
+}
+footer .footer{
+	background: #244883;/*#DCDCDC*/
+	margin-top: 30px;
+}
+footer .footer h6{
+	margin: 43px;
+	color: white;
+}
+footer .footer p{
+	margin:37px;
+	color: white;
+}
+footer .footer img{
+	display: block;
+	margin: 0 auto;
+}
+.home_image{
+	display: grid;
+}
+.home_image a{
+	margin: 50px;
+}
+.home h1{
+	color: #f8cf05;
+	text-align: center;
+}
+.home h3{
+	font-size: 17px;
+	text-align: justify;
+	color: #005494;
+}
+
+.home img{
+	display: block;
+	margin:15px auto;
+}
+.Student p{
+	text-align: justify;
+}
+.Student h3{
+	text-align: center;
+	color: #f8cf05;
+}
+.koledj h3{
+	text-align: center;
+	color: #f8cf05;
+}
+.koledj p{
+	text-align: justify;
+}
+.history h3{
+	text-align: center;
+	color: #f8cf05;
+}
+.history img{
+	float: right;
+}
+.history p{
+	text-align: ;
+}
+.mode h3,h4{
+	text-align: center;
+}
+table.wym_table_a td{
+	border-top: 1px solid #005494;
+    border-bottom: 1px solid #005494;
+    border-left: 1px solid #005494;
+    border-right: 1px solid #005494;
+    vertical-align: top;
+    padding: 20px;
+}
+.wym_center {
+	text-align: center;
+	font-size: 25px;
+}
